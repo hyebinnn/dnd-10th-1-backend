@@ -28,8 +28,8 @@ model User {
 
   // Relation - 1 : N 
   BlankTopicResult BlankTopicResult[]
-  Room             Room               @relation(fields: [roomId], references: [id])
-  roomId           String
+  Room             Room?               @relation(fields: [roomId], references: [id])
+  roomId           String?
 }
 
 // Table[room] : 방 정보 
