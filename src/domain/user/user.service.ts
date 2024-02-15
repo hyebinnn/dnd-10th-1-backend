@@ -6,8 +6,9 @@ export class UserService {
         constructor(private readonly prismaService: PrismaService) {}
 
         async setUserProfile(nickName: string, profileImage: string, roomId: string) {
+                let user;
                 if (roomId === '') {
-                        await this.prismaService.user.create({
+                        user = await this.prismaService.user.create({
                                 data: {
                                         displayName: nickName,
                                         profileImage: profileImage,
@@ -15,7 +16,7 @@ export class UserService {
                                 },
                         });
                 } else {
-                        await this.prismaService.user.create({
+                        user = await this.prismaService.user.create({
                                 data: {
                                         displayName: nickName,
                                         profileImage: profileImage,
@@ -23,5 +24,7 @@ export class UserService {
                                 },
                         });
                 }
+
+                return user;
         }
 }

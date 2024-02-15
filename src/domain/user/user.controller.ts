@@ -23,9 +23,13 @@ export class UserController {
                 const { nickName, profileImage } = userDto;
 
                 if (roomId) {
-                        await this.userService.setUserProfile(nickName, profileImage, roomId);
+                        return await this.userService.setUserProfile(
+                                nickName,
+                                profileImage,
+                                roomId,
+                        );
                 } else {
-                        await this.userService.setUserProfile(nickName, profileImage, '');
+                        return await this.userService.setUserProfile(nickName, profileImage, '');
                 }
         }
 }
