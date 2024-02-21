@@ -1,4 +1,3 @@
-# dnd-10th-1-backend
 DND 10기 1조 백엔드
 
 🌲 Project Structure
@@ -77,4 +76,75 @@ src/
   pnpm local:start
 ```
 
-<img width="747" alt="image" src="https://github.com/dnd-side-project/dnd-10th-1-backend/assets/58043975/c7ab5f5b-cb94-4a0e-ad2b-09be7e96657b">
+<table>
+    <tbody>
+        <tr>
+            <td>                    
+                <img src="https://github.com/hyebinnn/dnd-10th-1-backend/assets/76420055/ba052e9f-9649-42a1-ab2f-073fff011be9" width="100px" height="100px"/>
+            </td>
+            <td>
+                <img width="100px" height="100px" src="https://github.com/hyebinnn/dnd-10th-1-backend/assets/76420055/7e223a74-d956-4c3e-975c-767a00eb6dc2"/>
+            </td>
+            <td>
+                <a href="https://github.com/jgjgill">
+                    <img src="https://avatars.githubusercontent.com/u/79239852?v=4" width="100px" height="100px"/>
+                </a>
+            </td>
+            <td>
+                <a href="https://github.com/Zero-1016">
+                    <img src="https://avatars.githubusercontent.com/u/115636461?v=4" width="100px" height="100px"/>
+                </a>  
+            </td>
+            <td>
+                <a href="https://github.com/TLOWAC">
+                    <img src="https://avatars.githubusercontent.com/u/58043975?v=4" width="100px" height="100px"/>
+                </a>
+            </td>
+            <td>
+                <a href="https://github.com/hyebinnn">
+                    <img src="https://avatars.githubusercontent.com/u/76420055?v=4" width="100px" height="100px"/>
+                </a>  
+            </td>
+        </tr>
+        <tr>
+            <th>
+            신해지
+            </th>
+            <th>
+            김현아
+            </th>
+            <th>
+            이종길
+            </th>
+            <th>
+            이지형
+            </th>
+            <th>
+            이창훈
+            </th>
+            <th>
+            김혜빈
+            </th>
+        </tr>
+        <tr>
+            <th>
+            Designer
+            </th>
+            <th>
+            Designer
+            </th>
+            <th>
+            FrontEnd
+            </th>
+            <th>
+            FrontEnd
+            </th>
+            <th>
+            BackEnd
+            </th>
+            <th>
+            BackEnd
+            </th>
+        </tr>
+    </tbody>
+</table>
